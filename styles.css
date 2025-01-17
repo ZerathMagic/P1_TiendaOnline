@@ -4,7 +4,7 @@
 }
 
 body{
-  background-color: #e7e8e4;
+  background-color: #e9e9e9;
 }
 
 
@@ -25,13 +25,13 @@ font-size: 18px;
 
 .encabezado-principal{
 margin-left: 20px;
-color:blueviolet;
+color:#a43bec;
 text-align: center;
 }
 
 .encabezado-secundario{
 margin-left: 20px;
-color:blueviolet;
+color:#a43bec;
 text-align: center;
 }
 
