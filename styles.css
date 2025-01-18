@@ -36,7 +36,7 @@ text-align: center;
 }
 
 .caja1{
-background-color: #edefea ;
+background-color: #f7f7f7 ;
 width: 20%;
 height: 20%;
 margin-left: 15%;
@@ -44,21 +44,23 @@ display: inline-block;
 }
 
 .caja2{
-  background-color: #edefea ;
+  background-color: #f7f7f7 ;
   width: 20%;
-  height: 20%;
+  height: 25%;
   margin-left: 2%;
   display: inline-block;
   }
 
 .cajas-titulos{
 text-align: center;
+background-color: #92ea1a;
 }
 
 .cajas-img{
   display: block;
   margin: auto;
   width: 180px;
+  align-items: center;
   height: 240px;
 }
 
