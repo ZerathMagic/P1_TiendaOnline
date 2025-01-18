@@ -1,97 +1,91 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
+body {
   background-color: #e9e9e9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
 }
 
-
-.cabezadePagina{
-background-color: #68BAAB;
-width: 100%;
-height: 60px;
-align-items: center;
-display: flex;
+main {
+  flex: 1; 
 }
 
-.nombre-de-pagina{
-
-margin-left: 20px;
-
-font-size: 18px;
+.cabezadePagina {
+  background-color: #68BAAB;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  display: flex;
 }
 
-.encabezado-principal{
-margin-left: 20px;
-color:#745296;
-text-align: center;
+.nombre-de-pagina {
+  margin-left: 20px;
+  font-size: 18px;
 }
 
-.encabezado-secundario{
-margin-left: 20px;
-color:#512D38;
-text-align: center;
+.encabezado-principal {
+  margin-left: 20px;
+  color: #745296;
+  text-align: center;
 }
 
-.caja1{
-background-color: #f7f7f7 ;
-width: 18%;
-height: 30%;
-margin-left: 15%;
-display: inline-block;
+.encabezado-secundario {
+  margin-left: 20px;
+  color: #512D38;
+  text-align: center;
 }
 
-.caja2{
-  background-color: #f7f7f7 ;
-  width: 18%;
-  height: 30%;
-  margin-left: 5%;
-  display: inline-block;
-  }
-
-.caja3{
-background-color: #f7f7f7;
-width: 18%;
-height: 30%;
-margin-left: 5%;
-display: inline-block;
-}
-
-.caja4{
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6 {
   background-color: #f7f7f7;
   width: 18%;
   height: 30%;
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+
+.caja1 {
+  margin-left: 15%;
+  padding-bottom: 1rem;
+}
+
+.caja2 {
+  margin-left: 5%;
+  padding-bottom: 1rem;
+}
+
+.caja3 {
+  margin-left: 5%;
+  padding-bottom: 1rem;
+}
+
+.caja4 {
   margin-top: 5%;
   margin-left: 15%;
-  display: inline-block;
-  }
-
-.caja5{
-  background-color: #f7f7f7;
-  width: 18%;
-  height: 30%;
-  margin-top: 5%;
-  margin-left: 5%;
-  display: inline-block;
-  }
-
-.caja6{
-  background-color: #f7f7f7;
-  width: 18%;
-  height: 30%;
-  margin-top: 5%;
-  margin-left: 5%;
-  display: inline-block;
-  }
-
-.cajas-titulos{
-text-align: center;
-background-color: #68BAAB;
+  padding-bottom: 1rem;
 }
 
-.cajas-img{
+.caja5 {
+  margin-top: 5%;
+  margin-left: 5%;
+  padding-bottom: 1rem;
+}
+
+.caja6 {
+  margin-top: 5%;
+  margin-left: 5%;
+  padding-bottom: 1rem;
+}
+
+.cajas-titulos {
+  text-align: center;
+  background-color: #68BAAB;
+}
+
+.cajas-img {
   display: block;
   margin: auto;
   width: 180px;
@@ -99,24 +93,42 @@ background-color: #68BAAB;
   height: 240px;
 }
 
-.acerca-de{
-  background-color: #745296;
-
+.acerca-de::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("img/p5rWallpaper.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  filter: blur(4px);
+  width: 100%;
+  min-height: 500px;
+  padding-top: 20px;
 }
 
-
-
-footer{
-background-color: #68BAAB;
-display: flex;
-position: fixed;
-bottom: 0;
-width: 100%;
+.acerca-de {
+  position: relative;
+  margin-bottom: 100px; 
 }
 
-footer h2{
-margin-left: 20px;
-color: white;
-text-align: center;
+.acerca-de h2 {
+  color: #e9e9e9;
+  text-align: center;
 }
 
+footer {
+  background-color: #68BAAB;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: grid;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  margin-top: 50px; 
+}
