@@ -47,9 +47,18 @@ display: inline-block;
   background-color: #f7f7f7 ;
   width: 20%;
   height: 25%;
-  margin-left: 2%;
+  margin-left: 5%;
   display: inline-block;
   }
+
+.caja3{
+background-color: #f7f7f7;
+width: 20%;
+height: 25%;
+margin-left: 5%;
+display: inline-block;
+}
+
 
 .cajas-titulos{
 text-align: center;
