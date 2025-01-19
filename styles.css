@@ -109,8 +109,29 @@ main {
 }
 
 
-.acerca-de h2 {
+.acerca-de h2, .acerca-de h3 {
   color: #e9e9e9;
+  text-align: center;
+}
+
+.ceo{
+  background-color: #745296;
+  min-height: 500px;
+  width: 70%;
+  margin: auto;
+  
+}
+
+.ceo-tienda{
+  width: 400px;
+  height: 400px;
+  margin-top: 5%;
+  margin-left: 10%;
+  display: inline-block;
+}
+
+.ceo-h3{
+  display: inline-block;
   text-align: center;
 }
 
