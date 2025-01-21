@@ -139,10 +139,12 @@ main {
 .ceo-h4{
   display: inline-block;
   text-align: center;
+  color: white;
 }
 
 .ceo-historia{
 display: inline-block;
+color: white;
 }
 
 #page-container {
