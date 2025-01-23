@@ -102,10 +102,15 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 10%;
-
+  filter: blur(5px);
+  -webkit-filter: blur(8px);
   min-height: 600px;
   width: 100%;
   padding-bottom: 0%;
+}
+
+.acer-Cont{
+  z-index: 2;
 }
 
 
